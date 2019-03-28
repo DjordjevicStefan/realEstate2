@@ -17,14 +17,14 @@
 			<div class="col">
 		<form id="form_id" method="post">
 			   <div class="form-group">
-			<label for="username">User Name :</label>
+			<label class="h5" for="username">User Name :</label>
 			<input type="text" name="username" id="username" ng-model="userCredidentials.username" ng-disabled="userCredidentials.disabled">
 		</div>
 		<div class="form-group">
-			<label>Password :</label>
+			<label for="password" class="h5">Password :</label>
 			<input type="password" name="password" id="password" ng-model="userCredidentials.password" ng-disabled="userCredidentials.disabled">
 
-			<input type="button" value="Login" id="submit" ng-click="validate()" ng-disabled="userCredidentials.disabled">
+			<input  type="button" value="Login" id="submit" ng-click="validate()" ng-disabled="userCredidentials.disabled">
 		</div>
 		</form>
 	</div>
